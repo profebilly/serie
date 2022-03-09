@@ -1,0 +1,62 @@
+:root {
+    --rojo: #E50914;
+    --fondo: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--fondo);
+}
+
+header {
+    padding: 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .Logotipo {
+    font-family: 'Bebas Neve', cursive;
+    font-weight: normal;
+    color: var(--rojo);
+    font-size: 40px;
+}
+
+header nav a {
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.activo {
+    color: #FFF;
+}
+
+
+/*------------Pelicula Principal---------*/
+
+.pelicula-principal {
+    font-size: 16px;
+    min-height: 40.62em;
+    color: #FFF;
+    background: url(../img/backdrop1.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 3.12em;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pelicula-principal .container {
+    margin: 0 auto;
+    margin-bottom: 6.25em;
+}
